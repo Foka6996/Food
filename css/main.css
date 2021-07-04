@@ -1,0 +1,352 @@
+body {
+    margin: 0 auto;
+
+}
+
+@font-face {
+    font-family: tavoldafree;
+    src: url("../shrift/tavolga-free.ttf");
+}
+
+@font-face {
+    font-family: lifehack;
+    src: url("../shrift/ofont.ru_Lifehack Sans.ttf");
+}
+
+#header {
+    background: #c7d235;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+
+
+}
+
+.logo {
+    font-size: 18px;
+    font-family: "tavoldafree";
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.links {
+    margin-left: 290px;
+    display: inline-block;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 15px;
+    font-family: "tavoldafree";
+    color: rgb(255, 255, 255);
+
+}
+
+#two-block {
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#two-block-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#block-one {
+    display: inline-block;
+    max-width: 533px;
+    margin-top: 232px;
+    margin-bottom: 204px;
+    position: relative;
+}
+
+.title {
+    font-size: 55px;
+    font-family: "tavoldafree";
+    color: rgb(215, 168, 77);
+    width: 515px;
+}
+
+.title-two {
+    font-size: 17px;
+    font-family: "tavoldafree";
+    color: rgb(57, 39, 3);
+    width: 496px;
+    margin: 60px 0;
+    line-height: 25px;
+}
+
+.action {
+    border-width: 1px;
+    border-color: rgb(215, 168, 77);
+    border-style: solid;
+    width: 222px;
+    padding: 5px;
+
+}
+
+.action button {
+    background-color: rgb(215, 168, 77);
+    width: 222px;
+    height: 50px;
+    outline: none;
+    border: 0;
+    font-size: 17px;
+    font-family: "tavoldafree";
+    color: rgb(255, 255, 255);
+
+}
+
+.ykazat {
+    font-size: 25px;
+    font-family: "lifehack";
+    color: rgb(193, 205, 65);
+    text-align: center;
+    -moz-transform: matrix(0.93938712219109, 0.33796832248742, -0.33636554551413, 0.94386328828046, 0, 0);
+    -webkit-transform: matrix(0.93938712219109, 0.33796832248742, -0.33636554551413, 0.94386328828046, 0, 0);
+    -ms-transform: matrix(0.93938712219109, 0.33796832248742, -0.33636554551413, 0.94386328828046, 0, 0);
+    max-width: 104px;
+    display: inline-block;
+    position: absolute;
+    left: 272px;
+    bottom: -56px;
+}
+
+.img-ykaz {
+    position: absolute;
+    bottom: -61px;
+    left: 216px;
+}
+
+.img-ykaz-strela {
+    display: block;
+}
+
+#header-two {
+    background: #f1c90c;
+    padding: 55px 0;
+}
+
+#two-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header-text {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 20px;
+    font-family: "tavoldafree";
+    color: rgb(255, 255, 255);
+    margin-right: 125px;
+    position: relative;
+    z-index: 2;
+    padding: 6px 0 6px 10px;
+}
+.header-text::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #d7a84d;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.header-text:last-child {
+    margin-right: 0;
+}
+
+.img {
+    position: absolute;
+    z-index: -2;
+    left: -10px;
+}
+
+#block-three {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 155px 0 110px;
+    position: relative;
+    z-index: 5;
+}
+
+#text-title {
+    font-size: 20px;
+    font-family: "tavoldafree";
+    color: rgb(57, 39, 3);
+    line-height: 1.5;
+    text-align: center;
+    max-width: 698px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.img-three {
+    position: absolute;
+    top: -5px;
+    left: -38px;
+    z-index: -1;
+}
+
+#block-four {
+    background: #fefaf3;
+
+}
+
+.camomile {
+    position: absolute;
+    right: -46px;
+    top: -162px;
+
+}
+
+#block-four-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    background: #fefaf3;
+    position: relative;
+}
+
+#border {
+    border-width: 1px;
+    border-color: rgb(215, 168, 77);
+    border-style: solid;
+    width: 650px;
+    margin-top: 80px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 30px 0;
+}
+
+
+
+#block1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: "tavoldafree";
+    color: rgb(57, 39, 3);
+    line-height: 1.667;
+    text-align: left;
+    width: 196px;
+   padding: 0 37px;
+
+}
+
+#block2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 298px;
+    padding: 0 37px;
+    border-left: 1px solid #F4DEB4;
+}
+
+.text-two {
+    font-size: 20px;
+    font-family: "tavoldafree";
+    color: rgb(57, 39, 3);
+    line-height: 1.25;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+#block2 input::placeholder {
+    color: #d7a84d;
+}
+.input {
+    border: 0;
+    border-bottom: 1px solid rgb(215, 168, 77);
+    display: block;
+    background: #fefaf3;
+    margin: 0 auto;
+    width: 230px;
+    padding: 30px 10px 0;
+    outline: none;
+    font-size: 15px;
+    font-family: "tavoldafree";
+    color: rgb(215, 168, 77);
+    line-height: 1.667;
+    text-align: left;
+box-sizing: border-box;
+
+}
+
+.input:last-child {
+    margin-bottom: 32px;
+}
+
+#block2 .action {
+    margin: 30px auto 0;
+
+}
+
+#block-two-2 {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 18px;
+
+}
+
+.images {
+    margin-left: 20px;
+}
+
+#footer {
+    background-color: #9aa50c;
+    padding: 45px 0;
+
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-time {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: "tavoldafree";
+    color: rgb(255, 255, 255);
+    margin-left: 313px;
+
+}
+
+.prava {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    font-family: "tavoldafree";
+    color: rgb(58, 62, 7);
+    margin-left: 240px;
+}
+
+.up {
+    width: 30px;
+    height: 30px;
+    fill: #d7a84d;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background: #f4deb4;
+    display: block;
+    padding: 20px;
+    border-radius: 50%;
+}
