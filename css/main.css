@@ -91,7 +91,9 @@ body {
 .action a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 17px
+    font-size: 17px;
+    cursor: pointer;
+    
 }
 .action button {
     background-color: rgb(215, 168, 77);
