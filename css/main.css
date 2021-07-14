@@ -1,6 +1,5 @@
 body {
     margin: 0 auto;
-
 }
 
 @font-face {
@@ -18,15 +17,12 @@ body {
     position: fixed;
     width: 100%;
     z-index: 9999;
-
 }
 
 #header-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 0;
-
-
 }
 
 .logo {
@@ -48,7 +44,6 @@ body {
     font-size: 15px;
     font-family: "tavoldafree";
     color: rgb(255, 255, 255);
-
 }
 
 #two-block {
@@ -92,9 +87,12 @@ body {
     border-style: solid;
     width: 222px;
     padding: 5px;
-
 }
-
+.action a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px
+}
 .action button {
     background-color: rgb(215, 168, 77);
     width: 222px;
@@ -104,7 +102,7 @@ body {
     font-size: 17px;
     font-family: "tavoldafree";
     color: rgb(255, 255, 255);
-
+    cursor: pointer;
 }
 
 .ykazat {
@@ -140,7 +138,6 @@ body {
 #two-container {
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 .header-text {
@@ -204,14 +201,12 @@ body {
 
 #block-four {
     background: #fefaf3;
-
 }
 
 .camomile {
     position: absolute;
     right: -46px;
     top: -162px;
-
 }
 
 #block-four-container {
@@ -233,8 +228,6 @@ body {
     padding: 30px 0;
 }
 
-
-
 #block1 {
     display: inline-block;
     vertical-align: middle;
@@ -244,8 +237,7 @@ body {
     line-height: 1.667;
     text-align: left;
     width: 196px;
-   padding: 0 37px;
-
+    padding: 0 37px;
 }
 
 #block2 {
@@ -253,7 +245,7 @@ body {
     vertical-align: middle;
     width: 298px;
     padding: 0 37px;
-    border-left: 1px solid #F4DEB4;
+    border-left: 1px solid #f4deb4;
 }
 
 .text-two {
@@ -263,8 +255,6 @@ body {
     line-height: 1.25;
     text-align: center;
     margin-bottom: 20px;
-
-
 }
 #block2 input::placeholder {
     color: #d7a84d;
@@ -283,8 +273,7 @@ body {
     color: rgb(215, 168, 77);
     line-height: 1.667;
     text-align: left;
-box-sizing: border-box;
-
+    box-sizing: border-box;
 }
 
 .input:last-child {
@@ -293,14 +282,12 @@ box-sizing: border-box;
 
 #block2 .action {
     margin: 30px auto 0;
-
 }
 
 #block-two-2 {
     display: inline-block;
     vertical-align: bottom;
     margin-left: 18px;
-
 }
 
 .images {
@@ -310,7 +297,6 @@ box-sizing: border-box;
 #footer {
     background-color: #9aa50c;
     padding: 45px 0;
-
 }
 
 #footer-container {
@@ -325,7 +311,6 @@ box-sizing: border-box;
     font-family: "tavoldafree";
     color: rgb(255, 255, 255);
     margin-left: 313px;
-
 }
 
 .prava {
